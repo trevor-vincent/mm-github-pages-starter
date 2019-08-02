@@ -70,7 +70,7 @@ author:
  #     icon: "fab fa-fw fa-twitter-square"
  #     url: "https://twitter.com/"
     - label: "Resume"
-      icon: "fas fa-file"
+      icon: "fas fa-fw fa-file"
       url: "https://trevor-vincent.github.io/website/trevor_cv.pdf"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
