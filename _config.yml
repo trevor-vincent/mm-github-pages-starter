@@ -61,6 +61,7 @@ author:
   name   : "Trevor Vincent"
   avatar : "/assets/images/linkedin_crop1.png"
   bio    : "Physicist, PhD."
+  email  : "trevor.j.vincent@gmail.com" 
   links:
  #   - label: "Website"
  #      icon: "fas fa-fw fa-link"
@@ -74,6 +75,11 @@ author:
 #    - label: "Instagram"
 #      icon: "fab fa-fw fa-instagram"
 #      url: "https://instagram.com/"
+    - label: "Resume"
+      icon: "fab fa-fw fa-file"
+      url: "https://trevor-vincent.github.io/website/trevor_cv.pdf"
+
+
 
 footer:
   links:
