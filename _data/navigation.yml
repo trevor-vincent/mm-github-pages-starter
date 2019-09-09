@@ -3,5 +3,5 @@ main:
     url: /posts/
   - title: "Resume"
     url: https://trevor-vincent.github.io/website/trevor_vincent_resume_3.pdf
-#  - title: "About"
-#    url: /about/
+  - title: "About"
+    url: /about/
