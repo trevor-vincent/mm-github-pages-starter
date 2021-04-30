@@ -59,7 +59,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Trevor Vincent"
+  name   : "Dr. Trevor Vincent"
   avatar : "/assets/images/linkedin_crop1.png"
   bio    : "Astrophysicist, PhD."
   email  : "trevor.j.vincent@gmail.com" 
