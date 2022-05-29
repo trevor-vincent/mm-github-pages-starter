@@ -1,7 +1,7 @@
+# main links links
 main:
   - title: "Posts"
     url: /posts/
+    
   - title: "Resume"
-    url: https://trevor-vincent.github.io/website/trevor_vincent_resume.pdf
-  - title: "About"
-    url: /about/
+    url: /cv/
