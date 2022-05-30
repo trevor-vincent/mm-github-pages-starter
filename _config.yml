@@ -10,10 +10,10 @@ locale                   : "en-US"
 title                    : "Trevor Vincent"
 title_separator          : "-"
 name                     : &name "Trevor Vincent"
-description              : &description "Astrophysicist, PhD"
-url                      : https://trevorvincent.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "trevor-vincent/website"
+description              : &description "Postdoc in Political Science"
+url                      : "https://trevor-vincent.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/website" # the subpath of your site, e.g. "/blog"
+repository               : 
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -88,8 +88,8 @@ author:
   location         :
   employer         :
   pubmed           :
-  orcid            :
-  googlescholar    :
+  orcid            : 
+  googlescholar    : 
   email            : "trevor.j.vincent@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -99,17 +99,17 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "trevor-vincent"
+  github           : trevor-vincent
   gitlab           : 
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : 
+  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "tjv1"
   pinterest        :
   soundcloud       :
-  stackoverflow    : 
+  stackoverflow    : #"https://stackoverflow.com/users/10912314/jayrobwilliams"
   steam            :
   tumblr           :
   twitter          : "TrevTrain64"
