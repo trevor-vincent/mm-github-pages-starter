@@ -73,9 +73,10 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google" # false (default), "google", "google-universal", "custom", "goatcounter"
-  google:
+  provider               : "google-gtag" # false (default), "google", "google-universal", "custom", "goatcounter"
+  google-gtag:
     tracking_id          : G-18K61CV12B
+    anonymize_ip	 : false #default
   goatcounter:
     code		 : trevorvincent
 
