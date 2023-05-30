@@ -9,7 +9,7 @@ tags:
   - hpc
 ---
 
-While Rust is a modern low-level language with a great package manager, memory safety and other nice-to-have features, there are still huge practical problems with adopting it for high performance computing (HPC) use cases. In this short post I list a few points you should consider before writing an HPC library in Rust.
+While Rust is a modern low-level language with a great package manager, memory safety and other nice-to-have features, there are still huge practical problems with adopting it for high performance computing (HPC) use cases. In this short post I list a few points you should consider before writing a HPC library in Rust.
 
 1) There is a massive HPC ecosystem surrounding three languages: Fortran, C and C++. Of these, C++ is definitely dominating next-generation HPC frameworks (Kokkos, SYCL, HPX, Charm++, Taskflow,...) as well as the standard stuff (usually C/C++) like OpenMP, MPI, CUDA, HIP, etc. Not to mention most of the big numerical HPC libraries are written in the C/C++/Fortran languages. The most important thing here is AFAIK not a single next-generation (e.g.  distributed, asynchronous, task-based) HPC library written for Rust.
 
