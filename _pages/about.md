@@ -8,7 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I specialize in high performance software development. Typically I am writing code for supercomputers, AWS clusters, accelerators (e.g. GPUs), or optimizing existing codes that need a speed boost. Please get in touch if you need assistance in developing fast parallel code for single-board machines or massively parallel supercomputers.
+Welcome! My expertise lies in the realm of high-performance software development. My primary focus is on crafting code for advanced computing platforms such as supercomputers, AWS clusters, and accelerators like GPUs. Additionally, I excel in enhancing the efficiency of existing codes that require a significant performance uplift. If you're seeking expertise in developing swift and efficient parallel code, whether for compact single-board computers or expansive massively parallel supercomputers, I am here to assist.
 
-Here you'll find my full resume as well as links to my github, google scholar and other ways to contact/follow me.
-I also write the occasional blog post.
+On this site, you can access my comprehensive resume, alongside direct links to my GitHub, Google Scholar profiles, and other contact and follow options. Additionally, I occasionally share my insights and experiences through blog posts.
