@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Dr. Trevor Vincent</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Cabin&display=swap"
@@ -11,41 +11,190 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
       rel="stylesheet"
     />
-    <link href="style.css" rel="stylesheet" />
+    <!-- <link href="style.css" rel="stylesheet" /> -->
+    <style>
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: black; /* Set background color to black */
+        color: white;
+        font-family: "JetBrains Mono", monospace;
+      }
+
+      .profile-image {
+        width: 40vh;
+      }
+
+      h1 {
+        font-family: "Cabin", sans-serif;
+        margin: 1%;
+        margin-bottom: 0%;
+        padding: 0;
+        font-size: 3vh;
+      }
+
+      /* Styling for the About paragraph */
+      .about p {
+        text-align: center; /* Left-align the text */
+        max-width: 40vh;
+        /* padding: 0; */
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        font-size: 2vh;
+        color: rgba(255, 255, 255, 0.7);
+        /* color: #f88c00; */
+        /* /* margin-top: 20px; /* Add some space above the paragraph */
+      }
+      .main-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: calc(
+          100vh - 50px
+        ); /* Adjust height to leave space for footer */
+        text-align: center;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2vh;
+        padding: 10px;
+        /* height: 10vh; */
+      }
+      a {
+        text-decoration: none;
+      }
+      .button {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding: 1em 1em;
+        background-color: #0b0b0b; /* Dark background for the button */
+        color: white;
+        /* border-outline: /* none */
+        /* border-radius: 5px; */
+        /* border: 10px solid #fff /* Slightly lighter border for a 3D effect */
+        text-decoration: none;
+        border-radius: 1vh;
+        box-shadow: 0 0 0 0.1em #fff; /* Dark background for the button */
+        /* inset -8px 0 8px rgba(0, 0, 0, 0.15), */
+        /* inset 0 -8px 8px rgba(0, 0, 0, 0.25), */
+        /* 2px rgba(73, 80, 87, 0.8) */
+        /* 10px 20px 25px rgba(0, 0, 0, 0.4); */
+        transition:
+          transform 0.3s ease,
+          box-shadow 0.3s ease;
+        font-size: 20px;
+      }
+
+      .button:hover {
+        transform: translateY(-20px); /* Less movement for a subtler effect */
+        /* box-shadow: 0 6px #444; /* Increased shadow to enhance the "lifted" effect */
+      }
+
+      .fab,
+      .fas {
+        color: #b1d9e2;
+        margin-right: 0.5em;
+        font-size: 30px;
+      }
+
+      img {
+        max-width: 100%;
+        max-height: 80vh; /* Ensure image is contained within viewport */
+        object-fit: contain; /* Ensure aspect ratio is maintained */
+      }
+
+      footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        font-size: 1rem;
+        /* background-color: #222; */
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+      }
+
+      @media (max-width: 600px) {
+        .container {
+          display: flex;
+          flex-direction: column;
+          gap: 1vh; /* Reduced gap between buttons */
+          padding: 3vh; /* Reduced container padding */
+          /* width: 100%; */
+        }
+
+        footer {
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          font-size: 0.5rem;
+          /* background-color: #222; */
+          color: white;
+          text-align: center;
+          padding: 10px 0;
+        }
+
+        .button:hover {
+          transform: translateY(0px); /* Less movement for a subtler effect */
+          /* box-shadow: 0 6px #444; /* Increased shadow to enhance the "lifted" effect */
+        }
+
+        .button {
+          display: flex;
+          align-items: center;
+          justify-content: left;
+          padding: 1em 1em;
+          background-color: #0b0b0b; /* Dark background for the button */
+          color: white;
+          padding: 1vh;
+          /* border-outline: /* none */
+          /* border-radius: 5px; */
+          background-color: #000; /* Dark background for the button */
+          box-shadow: none;
+          /* text-decoration: underline; */
+          /* border: none; */
+          width: 100%;
+        }
+      }
+    </style>
   </head>
   <body>
-    <div class="container">
+    <div class="main-content">
       <img src="me.jpg" alt="Dr. Trevor Vincent" class="profile-image" />
       <h1>Dr. Trevor Vincent</h1>
       <div class="about">
         <p>Physicist / HPC Software Engineer</p>
         <!-- <p>Specializing in High Performance Software</p> -->
       </div>
-      <div class="links">
-        <div class="link-item">
-          <a href="https://github.com/trevor-vincent" target="_blank">GitHub</a>
-          <i class="fab fa-github"></i>
-        </div>
-        <div class="link-item">
-          <a href="https://linkedin.com/in/tjv1" target="_blank">LinkedIn</a>
-          <i class="fab fa-linkedin"></i>
-        </div>
-        <div class="link-item">
-          <a
-            href="https://scholar.google.com/citations?user=8SWkY-oAAAAJ&hl=en&oi=ao"
-            target="_blank"
-            >GScholar</a
-          >
-          <i class="fas fa-graduation-cap"></i>
-        </div>
-        <div class="link-item">
-          <a href="trevor_vincent_resume.pdf" target="_blank">Resume</a>
-          <i class="fas fa-file"></i>
-        </div>
-        <!-- <div class="link-item">
-             <i class="fas fa-envelope"></i>
-             <a href="mailto:trevor.j.vincent@gmail.com">Email</a>
-             </div> -->
+
+      <div class="container">
+        <a
+          class="button"
+          href="https://github.com/trevor-vincent"
+          title="GitHub"
+          ><i class="fab fa-github"></i>GitHub</a
+        >
+        <a class="button" href="https://linkedin.com/in/tjv1" title="LinkedIn"
+          ><i class="fab fa-linkedin"></i>LinkedIn</a
+        >
+        <a class="button" href="trevor_vincent_resume.pdf" title="Resume"
+          ><i class="fas fa-file"></i>Resume</a
+        >
+        <a
+          class="button"
+          href="https://scholar.google.com/citations?user=8SWkY-oAAAAJ&hl=en&oi=ao"
+          title="Google Scholar"
+          ><i class="fas fa-graduation-cap"></i>Google Scholar</a
+        >
       </div>
     </div>
   </body>
